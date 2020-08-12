@@ -20,10 +20,11 @@ The following animation demonstrates the application functionality:
 
 ![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Review
+## Screenshot:
 
-You are required to submit the following for review:
+## Link to Live Page:
 
-* The URL of the deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## Link to GitHub Repository:
+
+https://github.com/ssevadjian/Day-Planner
