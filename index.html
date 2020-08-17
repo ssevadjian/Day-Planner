@@ -27,64 +27,64 @@
             <div class="col-1 alert alert-light" role="alert">9:00am</div>
             <div class="col-10 alert" id="am9" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">10:00am</div>
             <div class="col-10 alert" id="am10" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">11:00am</div>
             <div class="col-10 alert" id="am11" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">12:00pm</div>
             <div class="col-10 alert" id="pm12" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">1:00pm</div>
             <div class="col-10 alert" id="pm1" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">2:00pm</div>
             <div class="col-10 alert" id="pm2" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">3:00pm</div>
             <div class="col-10 alert" id="pm3" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">4:00pm</div>
             <div class="col-10 alert" id="pm4" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">5:00pm</div>
             <div class="col-10 alert" id="pm5" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+                data-target="#eventModal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">6:00pm</div>
             <div class="col-10 alert" id="pm6" role="alert"></div>
-            <button class="col-1 alert alert-success"id="saveEvent" role="alert" data-toggle="modal"
-                data-target="#exampleModal">Add</button>
+            <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
+                data-target="#eventModal">Add</button>
         </div>
         <!-- <--Modal-->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -98,23 +98,23 @@
                         <!--Start Modal Form-->
                         <form>
                             <div class="form-group">
-                                <label for="exampleFormControlInput1">Title</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                <label for="titleInput">Title</label>
+                                <input type="email" class="form-control" id="titleInput"
                                     placeholder="">
                             </div>
                             <div class="form-group">
-                                <label for="exampleFormControlSelect1">Time</label>
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                <label for="timeInput">Time</label>
+                                <select class="form-control" id="timeInput">
+                                    <option id="time1"></option>
+                                    <option id="time2"></option>
+                                    <option id="time3"></option>
+                                    <option id="time4"></option>
+                                    <option id="time5"></option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Notes</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="notes" rows="3"></textarea>
                             </div>
                         </form>
                         <!--End Modal Form-->
