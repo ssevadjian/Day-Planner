@@ -11,16 +11,17 @@ $(document).ready(function () {
   const $pm4 = $("#pm4");
   const $pm5 = $("#pm5");
   const $pm6 = $("#pm6");
+  
   const m = moment();
   const dayOfWeek = (m.format(`dddd`) + ', ' + m.format('MMM Do'));
   const hour = moment().hour();
-  let events = JSON.parse(localStorage.getItem("myNotes")) || [];
-  //let eventNotes = JSON.parse(localStorage.getItem("myNotes")) || [];
-  console.log(events.myTitles);
-  //console.log(eventNotes);
+  //let eTitles = JSON.parse(locatStorage.getItem("eTitles")) || [];
+  let eTimes = JSON.parse(localStorage.getItem("eTines")) || [];
+  let eNotes = JSON.parse(localStorage.getItem("eNotes")) || [];
 
   // Displays today's date
   $currentDay.text(dayOfWeek);
+  $pm6.text(eNotes);
 
   // isPast function alerts dark if the time block is in the past, blue if it's current, and faded blue/teal if it's future 
   isPast();
@@ -120,10 +121,16 @@ $(document).ready(function () {
 
   //Save event form input to localStorage
   $save.click(function() {
-    const $titleInput = $("#titleInput").val();
+    // const $titleInput = $("#titleInput").val();
+    // const $timeInput = $("#timeInput").val();
     const $notes = $("#notes").val();
-    events.push($notes);
-    localStorage.setItem("myNotes", JSON.stringify(events));
+    // eTitles.push($titleInput);
+    //eTimes.push($timeInput);
+    eNotes.push($notes);
+    // locatStorage.setItem("eTitles", JSON.stringify(eTitles));
+    //locatStorage.setItem("eTimes", JSON.stringify(eTimes));
+    localStorage.setItem("eNotes", JSON.stringify(eNotes));
     $('#eventModal').modal('hide');
   });
+
 });
