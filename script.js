@@ -148,24 +148,28 @@ $(document).ready(function () {
   $save9.click(function() {
     let $am9Notes = $("#am9Notes").val();
     am9Notes.push($am9Notes);
+    $am9.text(am9Notes);
     localStorage.setItem("am9Notes", JSON.stringify(am10Notes));
     $('#event9Modal').modal('hide');
   });
   $save10.click(function() {
     let $am10Notes = $("#am10Notes").val();
     am10Notes.push($am10Notes);
+    $am10.text(am10Notes);
     localStorage.setItem("am10Notes", JSON.stringify(am10Notes));
     $('#event10Modal').modal('hide');
   });
   $save11.click(function() {
     let $am11Notes = $("#am11Notes").val();
     am11Notes.push($am11Notes);
+    $am11.text(am11Notes);
     localStorage.setItem("am11Notes", JSON.stringify(am11Notes));
     $('#event11Modal').modal('hide');
   });
   $save12.click(function() {
     let $pm12Notes = $("#pm12Notes").val();
     pm12Notes.push($pm12Notes);
+    $pm12.text(pm12Notes);
     localStorage.setItem("pm12Notes", JSON.stringify(pm12Notes));
     $('#event12Modal').modal('hide');
   });
