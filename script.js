@@ -147,7 +147,7 @@ $(document).ready(function () {
   //Save event form input to localStorage
   $save9.click(function() {
     let $am9Notes = $("#am9Notes").val();
-    //am9Notes.push($am9Notes);
+    am9Notes.push($am9Notes);
     $am9.text(am9Notes);
     localStorage.setItem("am9Notes", JSON.stringify(am10Notes));
     $('#event9Modal').modal('hide');
