@@ -30,13 +30,24 @@ $(document).ready(function () {
   let pm4Notes = JSON.parse(localStorage.getItem("pm4Notes")) || [];
   let pm5Notes = JSON.parse(localStorage.getItem("pm5Notes")) || [];
   let pm6Notes = JSON.parse(localStorage.getItem("pm6Notes")) || [];
-  
   const m = moment();
   const dayOfWeek = (m.format(`dddd`) + ', ' + m.format('MMM Do'));
   const hour = moment().hour();
 
   // Displays today's date
   $currentDay.text(dayOfWeek);
+
+  // Appends event form input to timeblocks
+  $am9.text(am9Notes);
+  $am10.text(am10Notes);
+  $am11.text(am11Notes);
+  $pm12.text(pm12Notes);
+  $pm1.text(pm1Notes);
+  $pm2.text(pm2Notes);
+  $pm3.text(pm3Notes);
+  $pm4.text(pm4Notes);
+  $pm5.text(pm5Notes);
+  $pm6.text(pm6Notes);
 
   // isPast function alerts dark if the time block is in the past, blue if it's current, and faded blue/teal if it's future 
   isPast();
@@ -133,33 +144,28 @@ $(document).ready(function () {
     }
   }
   
-
   //Save event form input to localStorage
   $save9.click(function() {
     let $am9Notes = $("#am9Notes").val();
     am9Notes.push($am9Notes);
-    $am9.text(am9Notes);
-    localStorage.setItem("am9Notes", JSON.stringify(am9Notes));
+    localStorage.setItem("am9Notes", JSON.stringify(am10Notes));
     $('#event9Modal').modal('hide');
   });
   $save10.click(function() {
     let $am10Notes = $("#am10Notes").val();
     am10Notes.push($am10Notes);
-    $am10.text(am10Notes);
     localStorage.setItem("am10Notes", JSON.stringify(am10Notes));
     $('#event10Modal').modal('hide');
   });
   $save11.click(function() {
     let $am11Notes = $("#am11Notes").val();
     am11Notes.push($am11Notes);
-    $am11.text(am11Notes);
     localStorage.setItem("am11Notes", JSON.stringify(am11Notes));
     $('#event11Modal').modal('hide');
   });
   $save12.click(function() {
     let $pm12Notes = $("#pm12Notes").val();
     pm12Notes.push($pm12Notes);
-    $pm12.text(pm12Notes);
     localStorage.setItem("pm12Notes", JSON.stringify(pm12Notes));
     $('#event12Modal').modal('hide');
   });

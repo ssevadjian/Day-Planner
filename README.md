@@ -7,10 +7,6 @@ When I click 'Add' on a timeblock, a modal window opens for me to save an event.
 Event is saved to localStorage.
 When I refresh the page, any saved events persist.
 
-
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
 ## Screenshot:
 ![Screenshot](./DayPlanner.png)
 
