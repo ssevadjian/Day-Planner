@@ -12,10 +12,11 @@ When I refresh the page, any saved events persist.
 ![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
 ## Screenshot:
-![Screenshot](.DayPlanner.png)
+![Screenshot](./DayPlanner.png)
 
 ## Link to Live Page:
 
+https://ssevadjian.github.io/Day-Planner/
 
 ## Link to GitHub Repository:
 
