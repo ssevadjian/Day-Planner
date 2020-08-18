@@ -27,64 +27,64 @@
             <div class="col-1 alert alert-light" role="alert">9:00am</div>
             <div class="col-10 alert" id="am9" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event9Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">10:00am</div>
             <div class="col-10 alert" id="am10" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event10Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">11:00am</div>
             <div class="col-10 alert" id="am11" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event11Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">12:00pm</div>
             <div class="col-10 alert" id="pm12" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event12Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">1:00pm</div>
             <div class="col-10 alert" id="pm1" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event1Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">2:00pm</div>
             <div class="col-10 alert" id="pm2" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event2Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">3:00pm</div>
             <div class="col-10 alert" id="pm3" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event3Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">4:00pm</div>
             <div class="col-10 alert" id="pm4" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event4Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">5:00pm</div>
             <div class="col-10 alert" id="pm5" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event5Modal">Add</button>
         </div>
         <div class="row">
             <div class="col-1 alert alert-light" role="alert">6:00pm</div>
             <div class="col-10 alert" id="pm6" role="alert"></div>
             <button class="col-1 alert alert-success" role="alert" data-toggle="modal"
-                data-target="#eventModal">Add</button>
+                data-target="#event6Modal">Add</button>
         </div>
-        <!-- <--Modal-->
-        <div class="modal fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <!--Modal9-->
+        <div class="modal fade" id="event9Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -98,30 +98,278 @@
                         <!--Start Modal Form-->
                         <form>
                             <div class="form-group">
-                                <label for="titleInput">Title</label>
-                                <input type="email" class="form-control" id="titleInput"
-                                    placeholder="">
-                            </div>
-                            <div class="form-group">
-                                <label for="timeInput">Time</label>
-                                <select class="form-control" id="timeInput">
-                                    <option id="time1">6:00 pm</option>
-                                    <option id="time2">6:15 pm</option>
-                                    <option id="time3">6:30 pm</option>
-                                    <option id="time4">6:45 pm</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
                                 <label for="notes">Notes</label>
-                                <textarea class="form-control" id="notes" rows="3"></textarea>
+                                <textarea class="form-control" id="am9Notes" rows="3"></textarea>
                             </div>
                         </form>
                         <!--End Modal Form-->
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="save">Save</button>
+                        <button type="button" class="btn btn-primary" id="save9">Save</button>
                     </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal10-->
+        <div class="modal fade" id="event10Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="am10Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save10">Save</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal11-->
+        <div class="modal fade" id="event11Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="am11Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save11">Save</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal12-->
+        <div class="modal fade" id="event12Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="pm12Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save12">Save</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal1-->
+        <div class="modal fade" id="event1Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="pm1Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save1">Save</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal2-->
+        <div class="modal fade" id="event2Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="pm2Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save2">Save</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal3-->
+        <div class="modal fade" id="event3Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="pm3Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save3">Save</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal4-->
+        <div class="modal fade" id="event4Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="pm4Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save4">Save</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal5-->
+        <div class="modal fade" id="event5Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="pm5Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save5">Save</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Modal6-->
+        <div class="modal fade" id="event6Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Event</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--Start Modal Form-->
+                        <form>
+                            <div class="form-group">
+                                <label for="notes">Notes</label>
+                                <textarea class="form-control" id="pm6Notes" rows="3"></textarea>
+                            </div>
+                        </form>
+                        <!--End Modal Form-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" id="save6">Save</button>
+                    </div>
+
                 </div>
             </div>
         </div>
